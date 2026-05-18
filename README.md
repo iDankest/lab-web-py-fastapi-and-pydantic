@@ -9,8 +9,8 @@ Construir una API REST completa para gestionar un sistema de tareas (to-do), con
 ## Setup
 
 ```bash
-mkdir lab-fastapi-tareas
-cd lab-fastapi-tareas
+# fork & clone the repository
+cd lab-web-py-fastapi-and-pydantic
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install fastapi uvicorn python-dotenv pydantic[email]
