@@ -1,0 +1,14 @@
+# Entornos virtuales (¡El asesino de repositorios!)
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Variables de entorno (Seguridad, nunca se suben las contraseñas)
+.env
+
+# Archivos pesados de carpetas del sistema o IDEs
+.DS_Store
+.vscode/
+.idea/
